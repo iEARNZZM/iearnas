@@ -1,0 +1,1 @@
+Čia bus tas pats kaip Landg page folderis tiesiog Projektų HTML CSS ir JS
