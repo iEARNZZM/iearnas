@@ -1,0 +1,75 @@
+// Konteinerio plotis ekrano pločio procentais
+$container-widht: 85vw;
+$container-widht-pc: 1000px;
+$max-width: 935px;
+
+$blue-1: #0C1821;
+$blue-2: #1b2a41;
+$blue-3: #324a5f;
+$blue-4: #ccc9dc;
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 935px;
+    justify-content: center;
+    //padding: 0px (100vw - $container-widht)/2;
+    
+    .tekstas{
+        width: $container-widht;
+        max-width: $max-width;
+    }
+    .about-img{
+        width: $container-widht;
+        max-width: $max-width;
+        img{
+            width: $container-widht;
+            max-width: $max-width;
+            box-shadow: 0 10px 10px 0px rgba(55,48,48,.09);
+        }
+    }
+}
+/*
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    .tekstas{
+        width: $container-widht-pc/2;
+        //float: left;
+        box-sizing: border-box;
+        padding-right: 10px;
+    }
+    .about-img{
+        width: $container-widht-pc/2;
+        //float: right;
+        box-sizing: border-box;
+        img{
+            width: $container-widht-pc/2;
+        }
+    }
+}*/
+@media only screen and (min-width: 1050px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        justify-content: center;
+        .tekstas{
+            width: 50%;
+            float: left;
+            box-sizing: border-box;
+            padding-right: 10px;
+        }
+        .about-img{
+            width: 50%;
+            float: right;
+            box-sizing: border-box;
+            img{
+                width: $container-widht-pc/2;
+            }
+        }
+    }
+
+}
