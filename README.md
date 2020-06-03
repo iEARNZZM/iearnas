@@ -1,2 +1,2 @@
 # Master Iearn svetainė
-Main kamienas į kurį jungiam kitas šakeles
+Pagrindinis kamienas į kurį jungiam kitas šakeles
