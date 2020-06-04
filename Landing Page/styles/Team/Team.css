@@ -1,139 +1,21 @@
 .container-3 {
   width: 100%;
   z-index: -1;
+  background-color: #21643b;
 }
 
 .container-3 h1 {
   text-align: center;
 }
 
-.carousel {
-  position: relative;
-  height: 600px;
-  width: 80%;
-  margin: 0 auto;
+.container-3 .carousel div {
+  background-color: #72b8ce;
 }
 
-.carousel__image {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.carousel__track-container {
-  background: transparent;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.carousel__track {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: relative;
-  height: 100%;
-  -webkit-transition: -webkit-transform 250ms ease-in;
-  transition: -webkit-transform 250ms ease-in;
-  transition: transform 250ms ease-in;
-  transition: transform 250ms ease-in, -webkit-transform 250ms ease-in;
-}
-
-.carousel__slide {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(230px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
-  justify-items: center;
-  grid-row-gap: 30px;
-  grid-column-gap: 30px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-.carousel__button {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.carousel__button img {
-  width: 19px;
-}
-
-.carousel__button :active, .carousel__button :focus {
-  border: none;
-  outline: none;
-}
-
-.go-left {
-  left: -50px;
-}
-
-.go-right {
-  right: -50px;
-}
-
-.carousel__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 10px 0;
-}
-
-.carousel__indicator {
-  border: 0;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-  background: rgba(0, 0, 0, 0.3);
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.current-slide {
-  background: transparent;
-}
-
-.current-dot {
-  background: rgba(0, 0, 0, 0.75);
-}
-
-.is-hidden {
-  display: none;
-}
-
-.member-card {
-  width: 230px;
-}
-
-.member-card div img {
-  width: 100%;
-  border-radius: 50%;
-}
-
-.member-card h4 {
-  color: #0C1821;
-  text-align: center;
-  margin: 0;
-  font-size: 1.5em;
-}
-
-.member-card p {
-  text-align: center;
-  font-size: 0.8em;
-  font-weight: 400;
-  margin: 0.5em 0;
-}
+/*.carousel{
+    position: relative;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+}*/
 /*# sourceMappingURL=Team.css.map */
