@@ -4,11 +4,17 @@ $blue-3: #324a5f;
 $blue-6: #DDE8E6;
 $blue-4: #ccc9dc;
 $blue-5: #00ABFF;
+
+$green-1: #cad2c5;
+$green-2: #84a98c;
+$green-3: #52796f;
+$green-4: #354f52;
+$green-5: #2f3e46;
     
 .footer-links{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    justify-items: center;
+    justify-items: flex-start;
     grid-template-rows: auto;
     grid-row-gap: 0px;
     grid-column-gap: 35px;
@@ -16,7 +22,7 @@ $blue-5: #00ABFF;
     min-width: 18em;
     h3{
         font-weight: 400;
-        color: $blue-3;
+        color: $green-1;
     }
     
     ul{
@@ -33,7 +39,7 @@ $blue-5: #00ABFF;
 
             a{
                 text-decoration: none;
-                color: $blue-5;
+                color: $green-1;
                 display: flex;
                 align-items: center;
                 
@@ -47,6 +53,7 @@ $blue-5: #00ABFF;
 }
 
 .footer{
-    background-color: $blue-6;
+    background-color: $green-4;
+    padding: 0 1em;
 }
     

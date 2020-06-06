@@ -6,6 +6,12 @@ $blue-2: #1b2a41;
 $blue-3: #324a5f;
 $blue-4: #ccc9dc;
 
+$green-1: #cad2c5;
+$green-2: #84a98c;
+$green-3: #52796f;
+$green-4: #354f52;
+$green-5: #2f3e46;
+
 .container-2{
     width: 100%;
     max-width: 1250px;
@@ -43,7 +49,7 @@ $blue-4: #ccc9dc;
     }
 
     h2{
-        margin: 0 20px;
+        margin: 10px 20px;
     }
     
     img{
@@ -55,6 +61,7 @@ $blue-4: #ccc9dc;
         p{
             padding: 0 20px 15px 20px; 
             margin: 0px;
+            color: $green-5;
         }
 
 }

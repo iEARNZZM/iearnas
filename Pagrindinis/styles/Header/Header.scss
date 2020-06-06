@@ -7,20 +7,27 @@ $blue-2: #1b2a41;
 $blue-3: #324a5f;
 $blue-4: #ccc9dc;
 
+$green-1: #cad2c5;
+$green-2: #84a98c;
+$green-3: #52796f;
+$green-4: #354f52;
+$green-5: #2f3e46;
+
 .header{
     position: fixed;
     background-color: $background-color;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    height: 2.5em;
+    height: 3em;
+    z-index: 1000;
      
     a {
         display: flex;
         align-items: center;
 
         .logo {
-            height: 2em;
+            height: 2.5em;
             margin-left:  20px;
             margin-top: auto;
             margin-bottom: auto;
@@ -44,7 +51,7 @@ $blue-4: #ccc9dc;
             .nav-link{
                 display: flex;
                 font-family: Segoe UI;
-                color: $text-color;
+                color: $green-4;
                 text-decoration: none;
                 align-items: center;
                 font-size: 0.9em;

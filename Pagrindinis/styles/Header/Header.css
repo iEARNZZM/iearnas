@@ -8,7 +8,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 2.5em;
+  height: 3em;
+  z-index: 1000;
 }
 
 .header a {
@@ -21,7 +22,7 @@
 }
 
 .header a .logo {
-  height: 2em;
+  height: 2.5em;
   margin-left: 20px;
   margin-top: auto;
   margin-bottom: auto;
@@ -54,7 +55,7 @@
   display: -ms-flexbox;
   display: flex;
   font-family: Segoe UI;
-  color: #586C6E;
+  color: #354f52;
   text-decoration: none;
   -webkit-box-align: center;
       -ms-flex-align: center;

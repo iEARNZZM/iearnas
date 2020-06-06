@@ -3,21 +3,35 @@
 @import './styles/Projektai/Projektai.scss';
 @import './styles/Footer/Footer.scss';
 @import './slick/slick.scss';
-@import './styles/Team/Team.scss';
+@import './styles/Nariai/Nariai.scss';
 
 $blue-1: #0C1821;
 $blue-2: #1b2a41;
 $blue-3: #324a5f;
 $blue-4: #ccc9dc;
 
-h1, h2{
+$green-1: #cad2c5;
+$green-2: #84a98c;
+$green-3: #52796f;
+$green-4: #354f52;
+$green-5: #2f3e46;
+
+h1{
     font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    color: $blue-3;
+    //font-weight: bold;
+    font-size: 2em;
+    color: $green-4;
+}
+
+h2{
+    font-family: 'Segoe UI', Verdana, Nunito sans, 'Segoe UI', Tahoma, Geneva, sans-serif;
+    //font-weight: 300;
+    font-size: 1.1em;
+    color: $green-4;
 }
 
 p{
-    color: #707070;
+    color: $green-5;
 }
 
 html, body{
@@ -27,14 +41,14 @@ html, body{
 body{
     font-family: Segoe UI;
     margin: 0;
-    background-color: whitesmoke;
+    background-color: $green-1;
 }
 
 .landing-img{
     padding-top: 2.5em;
     height: 95vh;
-    background-color: $blue-3;
-    background-image: url('/images/landing-img-backround.png');
+    //sbackground-color: $green;
+    background-image: url('./images/Pagrindinis-img-backround.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +60,6 @@ body{
         width: 100%;
     }
 }
-
 .pad{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -54,14 +67,14 @@ body{
     justify-content: center;
 }
 
-@media only screen and (min-width: 768px){
+/*@media only screen and (min-width: 768px){
     .landing-img{
-        background-image: url('/images/landing-img-backround.png');
+        background-image: url('/images/Pagrindinis-img-backround.png');
     }
 }
-/*  Pakeisti mobile-landing-img kai landscape mode  */
+  Pakeisti mobile-landing-img kai landscape mode  
 @media all and (orientation: landscape) {
     .landing-img {
-        background-image: url('/images/landing-img-backround.png');
+        background-image: url('/images/Pagrindinis-img-backround.png');
     }
-}
+}*/

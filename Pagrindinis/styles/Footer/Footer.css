@@ -3,7 +3,7 @@
   display: grid;
   -ms-grid-columns: (minmax(240px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  justify-items: center;
+  justify-items: flex-start;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
   grid-row-gap: 0px;
@@ -13,7 +13,7 @@
 
 .footer-links h3 {
   font-weight: 400;
-  color: white;
+  color: #cad2c5;
 }
 
 .footer-links ul {
@@ -35,7 +35,7 @@
 
 .footer-links ul li a {
   text-decoration: none;
-  color: #00ABFF;
+  color: #cad2c5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,6 +50,7 @@
 }
 
 .footer {
-  background-color: black;
+  background-color: #354f52;
+  padding: 0 1em;
 }
 /*# sourceMappingURL=Footer.css.map */
