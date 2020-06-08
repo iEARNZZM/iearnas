@@ -1,1 +1,2 @@
-Čia bus tas pats kaip Landing page folderis tiesiog Projektų HTML CSS ir JS
+# Iearn svetainė
+Komplikuotas, bet lengvas būdas gauti galvos skausmą

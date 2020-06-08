@@ -7,8 +7,8 @@ $(document).ready(function(){
         dots: true,
         slidesToShow: 5,
         slidesToScroll: 1,
-        prevArrow: '<span class="priv_arrow"><img src="./images/left button.svg" alt="previous"></i></span>',
-        nextArrow: '<span class="next_arrow"><img src="./images/right button.svg" alt="next"></span>',
+        prevArrow: '<span class="priv_arrow"><img src="../images/left button.svg" alt="previous"></i></span>',
+        nextArrow: '<span class="next_arrow"><img src="../images/right button.svg" alt="next"></span>',
         
         responsive: [
             {

@@ -1,9 +1,9 @@
-@import './styles/Header/Header.scss';
-@import './styles/About/About.scss';
-@import './styles/Projektai/Projektai.scss';
-@import './styles/Footer/Footer.scss';
-@import './slick/slick.scss';
-@import './styles/Nariai/Nariai.scss';
+@import '../styles/Header/Header.scss';
+@import '../styles/About/About.scss';
+@import '../styles/Projektai/Projektai.scss';
+@import '../styles/Footer/Footer.scss';
+@import '../slick/slick.scss';
+@import '../styles/Nariai/Nariai.scss';
 
 $blue-1: #0C1821;
 $blue-2: #1b2a41;
@@ -48,7 +48,7 @@ body{
     padding-top: 2.5em;
     height: 95vh;
     //sbackground-color: $green;
-    background-image: url('./images/Pagrindinis-img-backround.png');
+    background-image: url('../images/Pagrindinis-img-backround.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -499,7 +499,7 @@ body {
 .landing-img {
   padding-top: 2.5em;
   height: 95vh;
-  background-image: url("./images/Pagrindinis-img-backround.png");
+  background-image: url("../images/Pagrindinis-img-backround.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
