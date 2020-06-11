@@ -1,0 +1,107 @@
+.projektai {
+  margin-top: 3em;
+}
+
+.top-bar {
+  background-color: #2f3e46;
+  height: 2.5em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-bar ul {
+  margin: 0;
+  padding-left: 30px;
+}
+
+.top-bar ul li {
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.top-bar ul li a {
+  color: white;
+}
+
+.active-vieta a {
+  color: #00ccff;
+}
+
+.korteles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  justify-items: center;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  padding: 0 30px;
+}
+
+.korta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  position: relative;
+  -webkit-box-shadow: 0 3px 22px 1px rgba(55, 48, 48, 0.09);
+          box-shadow: 0 3px 22px 1px rgba(55, 48, 48, 0.09);
+  width: 200px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.korta div {
+  overflow: hidden;
+  max-height: 12em;
+}
+
+.korta h3 {
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #2f3e46;
+}
+
+.korta h6 {
+  margin: 10px 10px 5px auto;
+  display: inline;
+  padding: .2em .5em;
+  font-size: 75%;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.paskelbta {
+  color: #5cb85c;
+  border: 1px solid #5cb85c;
+}
+
+.redaguojama {
+  color: #eb912a;
+  border: 1px solid #eb912a;
+}
+/*# sourceMappingURL=Kurti-projekta.css.map */

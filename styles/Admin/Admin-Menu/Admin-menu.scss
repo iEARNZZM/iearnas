@@ -1,0 +1,51 @@
+$green-1: #cad2c5;
+$green-2: #84a98c;
+$green-3: #52796f;
+$green-4: #354f52;
+$green-5: #2f3e46;
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+.side-menu{
+    height: 100vh;
+    width: 100%;
+    background: rgb(47,62,70);
+    background: linear-gradient(180deg, $green-5 33%, $green-3 100%);
+}
+
+.menu-items{
+    margin: 0;
+    padding: 0;
+    padding-top: 3em;
+    li{
+        list-style: none;
+    }
+    a{
+        display: inline-flex;
+        height: 100%;
+        width: 100%;
+        line-height: 65px;
+        font-size: 20px;
+        color: white;
+        padding-left: 50px;
+        box-sizing: border-box;
+        text-decoration: none;
+        align-items: center;
+        
+
+        img{
+            width: 30px;
+            height: 30px;
+            margin-right: 16px;
+        }
+    }
+}
+
+.active-list{
+    background-color: rgba(255, 255, 225, 0.1);
+    a{
+        color: rgb(0, 204, 255);
+    }
+}

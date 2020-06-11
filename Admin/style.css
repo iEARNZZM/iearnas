@@ -1,0 +1,271 @@
+.header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 3em;
+  z-index: 1000;
+}
+
+.header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header a .logo {
+  height: 2.5em;
+  margin-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header .nav-bar .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  height: 100%;
+  padding-right: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav-bar .nav-links li {
+  padding: 0 15px;
+}
+
+.header .nav-bar .nav-links li .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Segoe UI;
+  color: #354f52;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.9em;
+}
+
+/* Active klase uzdesim ant to linko, kuriame busim per kita koda */
+.active {
+  border-bottom: solid 2px #1b2a41;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-links {
+    padding-right: 10px;
+  }
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px auto;
+      grid-template-columns: 300px auto;
+}
+
+.side-menu {
+  height: 100vh;
+  width: 100%;
+  background: #2f3e46;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(33%, #2f3e46), to(#52796f));
+  background: linear-gradient(180deg, #2f3e46 33%, #52796f 100%);
+}
+
+.menu-items {
+  margin: 0;
+  padding: 0;
+  padding-top: 3em;
+}
+
+.menu-items li {
+  list-style: none;
+}
+
+.menu-items a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-items a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+}
+
+.active-list {
+  background-color: rgba(255, 255, 225, 0.1);
+}
+
+.active-list a {
+  color: #00ccff;
+}
+
+.projektai {
+  margin-top: 3em;
+}
+
+.top-bar {
+  background-color: #2f3e46;
+  height: 2.5em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-bar ul {
+  margin: 0;
+  padding-left: 30px;
+}
+
+.top-bar ul li {
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.top-bar ul li a {
+  color: white;
+}
+
+.active-vieta a {
+  color: #00ccff;
+}
+
+.korteles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  justify-items: center;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  padding: 0 30px;
+}
+
+.korta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  position: relative;
+  -webkit-box-shadow: 0 3px 22px 1px rgba(55, 48, 48, 0.09);
+          box-shadow: 0 3px 22px 1px rgba(55, 48, 48, 0.09);
+  width: 200px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.korta div {
+  overflow: hidden;
+  max-height: 12em;
+}
+
+.korta h3 {
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #2f3e46;
+}
+
+.korta h6 {
+  margin: 10px 10px 5px auto;
+  display: inline;
+  padding: .2em .5em;
+  font-size: 75%;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.paskelbta {
+  color: #5cb85c;
+  border: 1px solid #5cb85c;
+}
+
+.redaguojama {
+  color: #eb912a;
+  border: 1px solid #eb912a;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  color: #354f52;
+}
+
+h2 {
+  font-family: 'Segoe UI', Verdana, Nunito sans, 'Segoe UI', Tahoma, Geneva, sans-serif;
+  font-size: 1.1em;
+  color: #354f52;
+}
+
+p {
+  color: #2f3e46;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font-family: Segoe UI;
+  margin: 0;
+  background-color: #cad2c5;
+}
+/*# sourceMappingURL=style.css.map */

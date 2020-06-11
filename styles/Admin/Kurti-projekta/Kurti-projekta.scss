@@ -1,0 +1,98 @@
+$green-1: #cad2c5;
+$green-2: #84a98c;
+$green-3: #52796f;
+$green-4: #354f52;
+$green-5: #2f3e46;
+
+$plotis: 200px;
+
+.projektai{
+    margin-top: 3em;
+}
+.top-bar{
+    background-color: $green-5;
+    height: 2.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    ul{
+        margin: 0;
+        padding-left: 30px;
+        li{
+            display:inline-block;
+            color: white;
+            font-size: 16px;
+            margin: 0 5px;
+            a{
+                color: white;
+            }
+        }
+    }
+}
+.active-vieta{
+    a{
+        color: rgb(0, 204, 255);
+    }
+    
+}
+
+.korteles{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($plotis, 1fr));
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    padding: 0 30px;
+}
+.korta{
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 3px 22px 1px rgba(55,48,48,.09);
+    width: $plotis;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    div{
+        overflow: hidden; 
+        max-height: 12em
+    }
+    h3{
+        margin: 0;
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $green-5;
+    }
+    h6{
+        margin: 10px 10px 5px auto;
+        display: inline;
+        padding: .2em .5em;
+        font-size: 75%;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25em;
+        font-weight: 400;
+        background-color: transparent;
+
+    }
+}
+
+.paskelbta{
+    color: #5cb85c;
+    border: 1px solid #5cb85c;
+}
+
+.redaguojama{
+    color: #eb912a;
+    border: 1px solid #eb912a;
+}
