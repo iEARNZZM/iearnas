@@ -9,8 +9,8 @@
   height: 100vh;
   width: 100%;
   background: #2f3e46;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(33%, #2f3e46), to(#52796f));
-  background: linear-gradient(180deg, #2f3e46 33%, #52796f 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #2f3e46), to(#52796f));
+  background: linear-gradient(180deg, #2f3e46 10%, #52796f 100%);
 }
 
 .menu-items {
@@ -47,11 +47,15 @@
   margin-right: 16px;
 }
 
-.active-list {
-  background-color: rgba(255, 255, 225, 0.1);
+.menu-items a i {
+  margin-right: 16px;
 }
 
 .active-list a {
   color: #00ccff;
+}
+
+.menu-items li:hover {
+  background-color: rgba(255, 255, 225, 0.055);
 }
 /*# sourceMappingURL=Admin-menu.css.map */

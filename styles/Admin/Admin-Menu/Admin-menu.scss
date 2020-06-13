@@ -12,7 +12,7 @@ $green-5: #2f3e46;
     height: 100vh;
     width: 100%;
     background: rgb(47,62,70);
-    background: linear-gradient(180deg, $green-5 33%, $green-3 100%);
+    background: linear-gradient(180deg, $green-5 10%, $green-3 100%);
 }
 
 .menu-items{
@@ -33,19 +33,22 @@ $green-5: #2f3e46;
         box-sizing: border-box;
         text-decoration: none;
         align-items: center;
-        
-
         img{
             width: 30px;
             height: 30px;
+            margin-right: 16px;
+        }
+        i{
             margin-right: 16px;
         }
     }
 }
 
 .active-list{
-    background-color: rgba(255, 255, 225, 0.1);
     a{
         color: rgb(0, 204, 255);
     }
+}
+.menu-items li:hover{
+    background-color: rgba(255, 255, 225, 0.055);
 }

@@ -4,7 +4,10 @@ $green-3: #52796f;
 $green-4: #354f52;
 $green-5: #2f3e46;
 
-$plotis: 200px;
+$hover-color: #13aff0;
+
+$plotis: 250px;
+$aukstis: 290px;
 
 .projektai{
     margin-top: 3em;
@@ -34,65 +37,153 @@ $plotis: 200px;
     a{
         color: rgb(0, 204, 255);
     }
-    
 }
-
+.projektu-sk{
+    padding-left: 40px;
+}
 .korteles{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax($plotis, 1fr));
     grid-template-rows: auto;
     justify-items: center;
+    justify-self: stretch;
     grid-row-gap: 30px;
     grid-column-gap: 30px;
     padding: 0 30px;
+    height: $aukstis;
 }
 .korta{
-    display: flex;
-    flex-direction: column;
-    //align-items: center;
     background: #fff;
-    position: relative;
-    box-shadow: 0 3px 22px 1px rgba(55,48,48,.09);
+    box-shadow: 0px 0px 10px 1px rgba(0, 38, 46, 0.09);
     width: $plotis;
+    height: $aukstis;
     border-style: solid;
     border-width: 1px;
     border-color: white;
-    div{
+    box-sizing: border-box;
+    transition: all 0.2s ease-out;
+    position: relative;
+    .img-con{
         overflow: hidden; 
-        max-height: 12em
+        height: $aukstis - 60px;
+        display: flex;
+        justify-content: center;
+        img{
+            height: 100%;
+            object-fit: cover;
+            transition: all 0.2s ease-out;
+        }
     }
+
     h3{
-        margin: 0;
-        margin-top: 5px;
-        margin-left: 10px;
+        margin: 5px 10px;
         font-size: 12px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         color: $green-5;
     }
-    h6{
-        margin: 10px 10px 5px auto;
-        display: inline;
-        padding: .2em .5em;
-        font-size: 75%;
-        line-height: 1;
-        text-align: center;
-        white-space: nowrap;
-        vertical-align: baseline;
-        border-radius: .25em;
-        font-weight: 400;
-        background-color: transparent;
 
+    .info{
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        font-size: 14px;
+        margin-top: 10px;
+        p{
+            margin: 0 0 0 10px;
+        }
+        h6{
+            margin: 0 10px;
+            display: inline;
+            padding: .2em .5em;
+            font-size: 75%;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .25em;
+            font-weight: 400;
+            background-color: transparent;
+        }
+    }
+}
+.korta-button{
+    z-index: 1000;
+    position: absolute;
+    top: $aukstis/2 - 35px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: .2s opacity linear;
+    div{
+        background-color: $hover-color;
+        padding: 5px 10px;
+        line-height: 1.5em;
+        border-radius: 0.25em;
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+}
+.korta-button:hover{
+    opacity: 1;
+}
+
+.korta:hover {
+    border-color: $hover-color;
+    box-shadow: 0px 0px 0px 1px $hover-color;
+    .img-con img{
+        filter: brightness(75%);
+    }
+    .korta-button{
+        opacity: 1;
     }
 }
 
 .paskelbta{
     color: #5cb85c;
     border: 1px solid #5cb85c;
+    ::before{
+        content: "Paskelbta";
+    }
 }
-
 .redaguojama{
     color: #eb912a;
     border: 1px solid #eb912a;
+    ::before{
+        content: "Redaguojama";
+    }
+}
+.new-project{
+    display: inline-flex;
+    background-color: $green-1;
+    width: $plotis;
+    height: $aukstis;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    transition: background-color 0.2s ease-out;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+    p{
+        margin-left: 0.5em;
+        font-size: 14px;
+        color: rgb(114, 114, 114);
+        font-style: italic;
+    }
+}
+.new-project:hover{
+    background-color: #ffffff55;
 }
