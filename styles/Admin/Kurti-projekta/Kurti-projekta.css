@@ -17,25 +17,29 @@
 .top-bar ul {
   margin: 0;
   padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: space-between;
 }
 
 .top-bar ul li {
   display: inline-block;
-  color: white;
+  color: #f3f3f3;
   font-size: 16px;
   margin: 0 5px;
 }
 
-.top-bar ul li a {
-  color: white;
-}
-
 .active-vieta a {
-  color: #00ccff;
+  font-style: italic;
+  color: #13aff0;
 }
 
 .projektu-sk {
-  padding-left: 40px;
+  margin: 0;
+  color: white;
+  margin-left: auto;
+  padding-right: 30px;
 }
 
 .korteles {
@@ -49,9 +53,30 @@
   -ms-grid-column-align: stretch;
       justify-self: stretch;
   grid-row-gap: 30px;
-  grid-column-gap: 30px;
+  grid-column-gap: 20px;
   padding: 0 30px;
-  height: 290px;
+  padding-top: 30px;
+  height: calc(100vh - 5.5em - 30px);
+  overflow-y: auto;
+}
+
+.korteles::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.korteles::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+.korteles::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #52796f;
 }
 
 .korta {
@@ -91,7 +116,7 @@
 
 .korta h3 {
   margin: 5px 10px;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
