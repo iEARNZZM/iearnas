@@ -1,8 +1,4 @@
-$green-1: #cad2c5;
-$green-2: #84a98c;
-$green-3: #52796f;
-$green-4: #354f52;
-$green-5: #2f3e46;
+@import '../../Temines-spalvos/Spalvos.scss';
 
 $hover-color: #13aff0;
 
@@ -13,7 +9,7 @@ $aukstis: 290px;
     margin-top: 3em;
 }
 .top-bar{
-    background-color: $green-5;
+    background-color: $spalva-5;
     height: 2.5em;
     width: 100%;
     display: flex;
@@ -75,7 +71,7 @@ $aukstis: 290px;
 {
     border-radius: 10px;
     box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: $green-3;
+    background-color: $spalva-3;
 }
 .korta{
     background: #fff;
@@ -191,7 +187,7 @@ $aukstis: 290px;
 }
 .new-project{
     display: inline-flex;
-    background-color: $green-1;
+    background-color: $spalva-1;
     width: $plotis;
     height: $aukstis;
     border-style: dashed;

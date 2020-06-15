@@ -1,17 +1,8 @@
-$green: #045B4B;
+@import '../Temines-spalvos/Spalvos.scss';
+
+$spalva: #045B4B;
 $text-color: #586C6E;
 $background-color: white;
-
-$blue-1: #0C1821;
-$blue-2: #1b2a41;
-$blue-3: #324a5f;
-$blue-4: #ccc9dc;
-
-$green-1: #cad2c5;
-$green-2: #84a98c;
-$green-3: #52796f;
-$green-4: #354f52;
-$green-5: #2f3e46;
 
 .header{
     position: fixed;
@@ -51,7 +42,7 @@ $green-5: #2f3e46;
             .nav-link{
                 display: flex;
                 font-family: Segoe UI;
-                color: $green-4;
+                color: $spalva-4;
                 text-decoration: none;
                 align-items: center;
                 font-size: 0.9em;
@@ -60,17 +51,9 @@ $green-5: #2f3e46;
     }
 }
 
-
-
-
-
-
-
-
-
 /* Active klase uzdesim ant to linko, kuriame busim per kita koda */
 .active{
-    border-bottom: solid 2px $blue-2;
+    border-bottom: solid 2px $spalva-4;
 }
 
 @media only screen and (min-width: 768px){

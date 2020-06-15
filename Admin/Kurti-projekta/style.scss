@@ -1,12 +1,7 @@
+@import '../../styles/Temines-spalvos/Spalvos.scss';
 @import '../../styles/Header/Header.scss';
 @import '../../styles/Admin/Admin-Menu/Admin-menu.scss';
 @import '../../styles/Admin/Kurti-projekta/Kurti-projekta.scss';
-
-$green-1: #cad2c5;
-$green-2: #84a98c;
-$green-3: #52796f;
-$green-4: #354f52;
-$green-5: #2f3e46;
 
 *{
     list-style: none;
@@ -21,18 +16,18 @@ h1{
     font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     //font-weight: bold;
     font-size: 2em;
-    color: $green-4;
+    color: $spalva-4;
 }
 
 h2{
     font-family: 'Segoe UI', Verdana, Nunito sans, 'Segoe UI', Tahoma, Geneva, sans-serif;
     //font-weight: 300;
     font-size: 1.1em;
-    color: $green-4;
+    color: $spalva-4;
 }
 
 p{
-    color: $green-5;
+    color: $spalva-5;
 }
 
 html, body{
@@ -42,5 +37,5 @@ html, body{
 body{
     font-family: Segoe UI;
     margin: 0;
-    background-color: $green-1;
+    background-color: $spalva-1;
 }
