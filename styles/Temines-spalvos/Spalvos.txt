@@ -1,0 +1,30 @@
+1 rinkinys (pilkos) :
+595959
+7f7f7f
+a5a5a5
+cccccc
+f2f2f2
+2 rinkinys (melsvos, gal dienos rezimas?);
+cee5f2
+accbe1
+7c98b3
+637081
+536b78
+3 rinkinys (melsvos, gal nakties rezimas?);
+000000
+0c1821
+1b2a41
+324a5f
+ccc9dc
+4 rinkinys;
+afc2d5
+8fa5b7
+6e8898
+4c6a7c
+294c60
+5 rinkinys (zalios);            DABARTINIS
+cad2c5
+84a98c
+52796f
+354f52
+2f3e46

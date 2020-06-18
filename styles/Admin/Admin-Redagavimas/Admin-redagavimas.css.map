@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAA;EACJ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,UAAU;EACjC,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CAEd;;AAID,AAAA,KAAK,CAAA;EACD,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "Admin-redagavimas.scss",
+        "../../Temines-spalvos/Spalvos.scss"
+    ],
+    "names": [],
+    "file": "Admin-redagavimas.css"
+}

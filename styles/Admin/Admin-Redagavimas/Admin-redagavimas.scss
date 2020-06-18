@@ -1,0 +1,15 @@
+@import '../../Temines-spalvos/Spalvos.scss';
+
+.content{
+    display: grid;
+    grid-template-columns: auto 400px;
+    height: 100%;
+    width: 100%;
+    
+}
+.writing{
+    //
+}
+.info{
+    padding: 15px;
+}

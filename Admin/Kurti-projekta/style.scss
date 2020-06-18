@@ -2,6 +2,7 @@
 @import '../../styles/Header/Header.scss';
 @import '../../styles/Admin/Admin-Menu/Admin-menu.scss';
 @import '../../styles/Admin/Kurti-projekta/Kurti-projekta.scss';
+@import '../../styles/Admin/Admin-Redagavimas/Admin-redagavimas.scss';
 
 *{
     list-style: none;
@@ -38,4 +39,9 @@ body{
     font-family: Segoe UI;
     margin: 0;
     background-color: $spalva-1;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px auto;
 }

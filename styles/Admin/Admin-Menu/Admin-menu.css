@@ -1,16 +1,19 @@
-.grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 300px auto;
-      grid-template-columns: 300px auto;
-}
-
 .side-menu {
   height: 100vh;
   width: 100%;
   background: #2f3e46;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #2f3e46), to(#52796f));
   background: linear-gradient(180deg, #2f3e46 10%, #52796f 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .menu-items {
@@ -57,5 +60,28 @@
 
 .menu-items li:hover {
   background-color: rgba(255, 255, 225, 0.055);
+}
+
+.atsijungti {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.atsijungti a {
+  padding: 10px 60px;
+  background-color: #84a98c;
+  font-weight: 700;
+  font-size: 1em;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  border-radius: 20px;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.atsijungti a:hover {
+  background-color: #ac0d0d;
 }
 /*# sourceMappingURL=Admin-menu.css.map */

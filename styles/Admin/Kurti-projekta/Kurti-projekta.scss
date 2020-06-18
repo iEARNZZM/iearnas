@@ -51,7 +51,7 @@ $aukstis: 290px;
     grid-column-gap: 20px;
     padding: 0 30px;
     padding-top: 30px;
-    height: calc(100vh - 5.5em - 30px);
+    height: calc(100vh - 5.5em - 15px);
     overflow-y: auto;
 }
 .korteles::-webkit-scrollbar-track
@@ -102,7 +102,7 @@ $aukstis: 290px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        color: $green-5;
+        color: $spalva-5;
     }
 
     .info{

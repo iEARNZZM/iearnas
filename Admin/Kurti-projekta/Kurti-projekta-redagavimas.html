@@ -28,16 +28,17 @@
     <!-- Menu ir projektai -->
     <div class="grid">
         <section class="side-menu">
-            <div>
-                <ul class="menu-items">
-                    <!-- ikoniukus dedu kaip <i></i> iš atskiro stiliaus -->
-                    <!-- daugiau ikonų: http://waramo.co.jp/fa/ -->
-                    <li><a href="#"><i class="fa fa-eyedropper"></i>Tinklapio spalvos</a></li>
-                    <li><a href="#"><i class="fa fa-info-circle"></i>Apie mus</a></li>
-                    <li class="active-list"><a href="#"><i class="fa fa-trophy"></i>Kurti projektą</a></li>
-                    <li><a href="#"><i class="fa fa-group"></i>Komandos nariai</a></li>
-                    <li><a href="#"><i class="fa fa-user"></i>User info</a></li>
-                </ul>
+            <ul class="menu-items">
+                <!-- ikoniukus dedu kaip <i></i> iš atskiro stiliaus -->
+                <!-- daugiau ikonų: http://waramo.co.jp/fa/ -->
+                <li><a href="#"><i class="fa fa-eyedropper"></i>Tinklapio spalvos</a></li>
+                <li><a href="#"><i class="fa fa-info-circle"></i>Apie mus</a></li>
+                <li class="active-list"><a href="#"><i class="fa fa-trophy"></i>Kurti projektą</a></li>
+                <li><a href="#"><i class="fa fa-group"></i>Komandos nariai</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>User info</a></li>
+            </ul>
+            <div class="atsijungti">
+                <a href="#">Atsijungti</a>
             </div>
         </section>
         <section class="projektai">
@@ -48,8 +49,27 @@
                     <li>Redagavimas ir projektas kurimas</li>
                 </ul>
             </div>
-
-
+            <div class="content">
+                <div class="writing" style="background-color: red">
+                    Rašyt patį projektą
+                </div>
+                <div class="info" style="background-color: blue">
+                    <form action="">
+                        <div class="pavadinimas">
+                            <h3>Pavadinimas</h3>
+                            <input type="text" placeholder="Projekto pavadinimas">
+                        </div>
+                        <div class="trumpasis-aprasymas">
+                            <h3>Trumpasis aprasymas</h3>
+                            <textarea placeholder="Projekto trumpas aprašymas" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="nuotrauka">
+                            <h3>Projekto miniatiūra/nuotrauka :</h3>
+                            <input type="file" accept="image/png,image/jpeg,image/gif">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
     </div>
 

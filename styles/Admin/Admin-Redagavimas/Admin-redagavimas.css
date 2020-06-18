@@ -1,0 +1,13 @@
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 400px;
+      grid-template-columns: auto 400px;
+  height: 100%;
+  width: 100%;
+}
+
+.info {
+  padding: 15px;
+}
+/*# sourceMappingURL=Admin-redagavimas.css.map */
