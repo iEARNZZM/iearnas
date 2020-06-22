@@ -8,8 +8,13 @@
     <link rel="shortcut icon" type="image/png" href="../../images/icons/favicon.ico">
     <!-- ICONS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- split -->
+    <script src="https://unpkg.com/split.js/dist/split.min.js"></script>
+
     <!-- Our css -->
     <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
@@ -50,10 +55,8 @@
                 </ul>
             </div>
             <div class="content">
-                <div class="writing" style="background-color: red">
-                    Rašyt patį projektą
-                </div>
-                <div class="info" style="background-color: blue">
+                <div class="writing">Rašyt patį projektą</div>
+                <div class="info">
                     <form action="">
                         <div class="pavadinimas">
                             <h3>Pavadinimas</h3>
@@ -64,8 +67,11 @@
                             <textarea placeholder="Projekto trumpas aprašymas" cols="30" rows="10"></textarea>
                         </div>
                         <div class="nuotrauka">
-                            <h3>Projekto miniatiūra/nuotrauka :</h3>
-                            <input type="file" accept="image/png,image/jpeg,image/gif">
+                            <h3>Projekto miniatiūra/nuotrauka</h3>
+                            <input id="src" type="file" accept="image/png,image/jpeg,image/gif">
+                            <div>
+                                <img id="target"/> <!-- image you want to display it (target) -->
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -73,6 +79,9 @@
         </section>
     </div>
 
+    <!-- split https://github.com/nathancahill/split/tree/master/packages/splitjs -->
+    <script src="../../scripts/split.js"></script>
+    <script src="../../scripts/nuotrauka.js"></script>
 </body>
 
 </html>
