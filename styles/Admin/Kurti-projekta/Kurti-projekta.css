@@ -30,6 +30,11 @@
   margin: 0 5px;
 }
 
+.top-bar ul li a {
+  list-style: none;
+  text-decoration: none;
+}
+
 .active-vieta a {
   font-style: italic;
   color: #13aff0;

@@ -79,6 +79,7 @@
   border-radius: 20px;
   -webkit-transition: none;
   transition: none;
+  text-decoration: none;
 }
 
 .atsijungti a:hover {

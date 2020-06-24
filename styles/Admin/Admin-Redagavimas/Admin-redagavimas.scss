@@ -8,10 +8,11 @@
     
 }
 .writing{
-
+    padding: 0.5em;
 }
 
-.info{
+.informacija{
+    // info menu plotis nusistosi scrpts/split.js >> minSize
     padding: 15px;
     background-color: white;
     box-shadow: 0px 0px 10px 5px rgba(0, 38, 46, 0.09);
@@ -43,24 +44,51 @@
     input{
         margin-bottom: 16px;
     }
+    .fa-photo{
+        top: 20px;
+    }
     div{
         overflow: hidden;
-        width: 283px;
+        //width: 283px;
+        width: 100%;
         height: 170px;
         border-style: dashed;
         border-width: 2px;
         border-color: rgb(218, 218, 218);
         background-color: rgb(245, 245, 245);
         box-sizing: border-box;
-
         display: flex;
         justify-content: center;
         img{
-            width: 100%;
+            height: 100%;
             object-fit: cover;
         }
     }
-    
+}
+
+.mygtukai{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    button{
+        border: none;
+        padding: 20px 32px;
+        text-align: center;
+        display: inline-block;
+        padding: 5px;
+        width: 48%;
+        border-radius: 8px;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        outline: none;
+    }
+    .Išsaugoti{
+        background-color: #00ABFF;
+    }
+    .Paskelbti{
+        background-color: rgb(2, 99, 2);
+    }
 }
 
 // https://github.com/nathancahill/split/tree/master/packages/splitjs
@@ -69,4 +97,14 @@
 .gutter{
     height: 100%;
     cursor: e-resize;
+    background-color: white;
+}
+
+.ql-contaier{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ql-editor{
+    width: 100%;
+    max-width: 800px;
 }
