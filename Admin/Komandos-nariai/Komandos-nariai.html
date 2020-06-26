@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <title>Admin - Komandos nariai</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="../../images/icons/favicon.ico">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Our css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#"><img class="logo" src="../../images/logo-pakoreguotas.svg" alt="logo"></a>
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a class="nav-link active" href="#">ADMIN</a></li>
+                <li><a class="nav-link" href="../../Pagrindinis/Pagrindinis.html">PAGRINDINIS</a></li>
+                <li><a class="nav-link" href="../../Projektai/Projektai.html">PROJEKTAI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu ir projektai -->
+    <div class="grid">
+        <section class="side-menu">
+            <ul class="menu-items">
+                <!-- ikoniukus dedu kaip <i></i> iš atskiro stiliaus -->
+                <!-- daugiau ikonų: http://waramo.co.jp/fa/ -->
+                <li><a href="../Apie-mus/Apie-mus.html"><i class="fa fa-info-circle"></i>Apie mus</a></li>
+                <li><a href="../Kurti-projekta/Kurti-projekta.html"><i class="fa fa-trophy"></i>Kurti projektą</a></li>
+                <li class="active-list"><a href="../Komandos-nariai/Komandos-nariai.html"><i class="fa fa-group"></i>Komandos nariai</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>User info</a></li>
+            </ul>
+            <div class="atsijungti">
+                <a href="#">Atsijungti</a>
+            </div>
+        </section>
+        <section class="projektai">
+            <div class="top-bar">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <table>
+                    <thead>
+                        <th>Nr.</th>
+                        <th>Vardas ir Pavardė</th>
+                        <th colspan="2">Info</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Gytis Kaulakis</td>
+                            <td><a href="#" class="Redaguoti">Redaguoti</a></td>
+                            <td><a href="#" class="Ištrinti">Ištrinti</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Marius Talutis</td>
+                            <td><a href="#" class="Redaguoti">Redaguoti</a></td>
+                            <td><a href="#" class="Ištrinti">Ištrinti</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <div class="button-group">
+                                    <a href="create.html" class="btn long-boy">Prideti žmogų</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+    <script src="../../scripts/nuotrauka.js"></script>
+    
+</body>
+
+</html>

@@ -5,6 +5,10 @@ $hover-color: #13aff0;
 $plotis: 250px;
 $aukstis: 290px;
 
+body{
+    background-color: $spalva-1;
+}
+
 .projektai{
     margin-top: 3em;
 }
@@ -39,6 +43,7 @@ $aukstis: 290px;
         color: $hover-color;
     }
 }
+
 .projektu-sk{
     margin: 0;
     color: white;
@@ -54,9 +59,12 @@ $aukstis: 290px;
     grid-row-gap: 30px;
     grid-column-gap: 20px;
     padding: 0 30px;
-    padding-top: 30px;
+    padding-top: 15px;
     height: calc(100vh - 5.5em - 15px);
     overflow-y: auto;
+    a{
+        text-decoration: none;
+    }
 }
 .korteles::-webkit-scrollbar-track
 {

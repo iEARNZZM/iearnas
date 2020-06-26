@@ -9,6 +9,7 @@
 }
 .writing{
     padding: 0.5em;
+    background-color: white;
 }
 
 .informacija{
@@ -94,17 +95,9 @@
 // https://github.com/nathancahill/split/tree/master/packages/splitjs
 // rankenėlė su kuria gali keisti info plotį
 // jei nori pakeisti pačios rankenėlės plotį, žiūrėk į scripts/split.js
+
 .gutter{
     height: 100%;
     cursor: e-resize;
-    background-color: white;
-}
-
-.ql-contaier{
-    display: flex;
-    justify-content: space-evenly;
-}
-.ql-editor{
-    width: 100%;
-    max-width: 800px;
+    background-color: rgb(255, 255, 255);
 }

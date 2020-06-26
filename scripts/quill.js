@@ -67,6 +67,8 @@ $('#saveDelta').click(function () {
 
     quill.setContents(window.delta);    // Perrašai Editoriaus dežutę į window.delta
 
+    console.log(window.delta);
+
 });
 
 $(document).ready(function(){
