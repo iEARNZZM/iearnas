@@ -520,6 +520,10 @@ body {
   border: none;
 }
 
+.btn:hover {
+  background-color: #84a98c;
+}
+
 .long-boy {
   width: calc(100% - 25.6px);
   margin: 0;
@@ -641,7 +645,7 @@ tr:last-child td {
 
 .apie-mus-nuotrauka {
   margin-top: 1em;
-  width: 100%;
+  width: 355px;
   height: 200px;
   overflow: hidden;
   display: -webkit-box;

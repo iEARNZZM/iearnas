@@ -440,6 +440,7 @@ body {
   border-radius: 8px;
   color: white;
   background-color: #52796f;
+  font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   cursor: pointer;
   outline: none;
@@ -448,8 +449,12 @@ body {
   border: none;
 }
 
+.btn:hover {
+  background-color: #84a98c;
+}
+
 .long-boy {
-  width: calc(100% - 25.6px);
+  width: 100%;
   margin: 0;
   font-size: 1.1em;
 }
@@ -489,16 +494,12 @@ tr:last-child td {
   padding-right: 0;
 }
 
-.Redaguoti {
+.Išsaugoti {
   color: green;
 }
 
 .Ištrinti {
   color: red;
-}
-
-.Publikuoti {
-  color: blue;
 }
 
 .Redaguoti:hover, .Ištrinti:hover, .Publikuoti:hover {
