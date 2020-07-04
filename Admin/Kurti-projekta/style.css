@@ -75,6 +75,55 @@
   }
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.5em 0.8em;
+  border-radius: 8px;
+  color: white;
+  background-color: #52796f;
+  font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  margin-right: 1em;
+  border: none;
+}
+
+.top-bar {
+  background-color: #2f3e46;
+  height: 2.5em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3em;
+}
+
+.top-bar ul {
+  margin: 0;
+  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: space-between;
+}
+
+.top-bar ul li {
+  display: inline-block;
+  color: #f3f3f3;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.top-bar ul li a {
+  list-style: none;
+  text-decoration: none;
+}
+
 .side-menu {
   height: 100vh;
   width: 100%;
@@ -165,10 +214,6 @@
 
 body {
   background-color: #cad2c5;
-}
-
-.projektai {
-  margin-top: 3em;
 }
 
 .top-bar {
@@ -435,17 +480,18 @@ body {
 }
 
 .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 300px;
+      grid-template-columns: auto 300px;
   height: calc(100% - 2.5em);
   width: 100%;
 }
 
 .writing {
-  padding: 0.5em;
   background-color: white;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 38, 46, 0.09);
+          box-shadow: 0px 0px 10px 5px rgba(0, 38, 46, 0.09);
 }
 
 .informacija {
@@ -475,6 +521,10 @@ body {
 .trumpasis-aprasymas textarea {
   font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   outline: none;
+}
+
+.trumpasis-aprasymas textarea::-webkit-resizer {
+  display: none;
 }
 
 .nuotrauka input {
@@ -541,17 +591,6 @@ body {
   background-color: #026302;
 }
 
-.gutter {
-  height: 100%;
-  cursor: e-resize;
-  background-color: white;
-}
-
-a {
-  -webkit-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-  transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-}
-
 h1 {
   font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2em;
@@ -583,4 +622,3 @@ body {
   -ms-grid-columns: 300px auto;
       grid-template-columns: 300px auto;
 }
-/*# sourceMappingURL=style.css.map */

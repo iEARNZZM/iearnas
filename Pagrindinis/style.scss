@@ -1,10 +1,30 @@
-@import '../styles/Temines-spalvos/Spalvos.scss';
-@import '../styles/Header/Header.scss';
-@import '../styles/About/About.scss';
-@import '../styles/Projektai/Projektai.scss';
-@import '../styles/Footer/Footer.scss';
+@import '../styles/_Spalvos.scss';
+@import '../styles/_Header.scss';
+@import '../styles/_About.scss';
+@import '../styles/_Projektai.scss';
+@import '../styles/_Footer.scss';
 @import '../slick/slick.scss';
-@import '../styles/Nariai/Nariai.scss';
+@import '../styles/_Nariai.scss';
+
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+    //border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: $spalva-3;
+}
 
 h1{
     font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

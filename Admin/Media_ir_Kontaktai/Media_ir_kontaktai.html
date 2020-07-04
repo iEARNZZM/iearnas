@@ -2,7 +2,7 @@
 <html lang="lt">
 
 <head>
-    <title>Admin - Pridėti narį</title>
+    <title>Admin - Footer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/png" href="../../images/icons/favicon.ico">
@@ -33,8 +33,8 @@
                 <!-- daugiau ikonų: http://waramo.co.jp/fa/ -->
                 <li><a href="../Apie-mus/Apie-mus.html"><i class="fa fa-info-circle"></i>Apie mus</a></li>
                 <li><a href="../Kurti-projekta/Kurti-projekta.html"><i class="fa fa-trophy"></i>Kurti projektą</a></li>
-                <li class="active-list"><a href="../Komandos-nariai/Komandos-nariai.html"><i class="fa fa-group"></i>Komandos nariai</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>User info</a></li>
+                <li><a href="../Komandos-nariai/Komandos-nariai.html"><i class="fa fa-group"></i>Komandos nariai</a></li>
+                <li class="active-list"><a href="../Media_ir_Kontaktai/Media_ir_kontaktai.html"><i class="fa fa-phone"></i>Media ir Kontaktai</a></li>
             </ul>
             <div class="atsijungti">
                 <a href="#">Atsijungti</a>
@@ -46,31 +46,44 @@
                     <li></li>
                 </ul>
             </div>
-            <div class="content">
-                <form autocomplete="off" action="create.html" method="post">
+            <div class="main-content">
+                <form>
+                    <h2>Socialiniai tinklai</h2>
                     <div>
-                        <label class="label">Vardas ir Pavardrė</label>
-                        <input type="text" name="Vardas-pavardė" class="text-input">
+                        <label>Instagram</label>
+                        <input value="https://www.instagram.com/iearn_ziezmariai_lithuania/" type="text" name="link" class="text-input">
                     </div>
                     <div>
-                        <label class="label">Trumpa 5/6 žodžių mintis</label>
-                        <input type="text" name="Apie" class="text-input">
-                    </div>
-                    <div >
-                        <label>Nario nuotrauka</label>
-                        <input id="src" type="file" accept="image/png,image/jpeg,image/gif">
-                        <div class="nuotrauka">
-                            <img  id="target"/>
-                        </div>
+                        <label>Facebook</label>
+                        <input value="https://www.facebook.com/iearn.ziezmariailithuania.3" type="text" name="link" class="text-input">
                     </div>
                     <div>
-                        <button type="submit" class="btn">Pridėti</button>
+                        <label>Youtube</label>
+                        <input value="https://www.youtube.com/channel/UCLzTSZCHARuzEEYsiAW4k7A" type="text" name="link" class="text-input">
+                    </div>
+                    <div>
+                        <label>Iearn.org</label>
+                        <input value="https://iearn.org/country/iearn-lithuania" type="text" name="link" class="text-input">
+                    </div>
+                    
+                    <div class="submit">
+                        <button type="submit" class="btn">Atnaujinti</button>
+                    </div>
+                </form>
+                <form>
+                    <h2>Kontaktai</h2>
+                    <input value="DJGytis213@gmail.com" type="text" name="link" class="text-input">
+                    <input value="Kocienė@gmail.com" type="text" name="link" class="text-input">
+                    <input value="Bachūras420@bing.com" type="text" name="link" class="text-input">
+                    <input value="+370 6841 2129" type="text" name="link" class="text-input">
+
+                    <div class="submit">
+                        <button type="submit" class="btn">Atnaujinti</button>
                     </div>
                 </form>
             </div>
         </section>
     </div>
-    <script src="../../scripts/nuotrauka.js"></script>
     
 </body>
 

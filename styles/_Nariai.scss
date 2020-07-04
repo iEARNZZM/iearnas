@@ -1,4 +1,4 @@
-@import '../Temines-spalvos/Spalvos.scss';
+@import '_Spalvos.scss';
 
 .container-3{
     width: 90%;
@@ -36,9 +36,12 @@
     }
     h2{
         text-align: center;
+        margin-bottom: 5px;
     }
     p{
         text-align: center;
+        font-size: 14px;
+        margin-top: 5px;
     }
 }
 

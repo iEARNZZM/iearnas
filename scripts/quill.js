@@ -51,7 +51,7 @@ $(function() {
         modules: {
           toolbar: toolbarOptions
         },
-        placeholder: 'Arba rašai, arba eik pas Kocienę ir paverk',
+        placeholder: 'Kur bėga Šešupė, kur Nemunas teka...',
         readOnly: false,
         theme: 'snow'
     });
@@ -71,6 +71,7 @@ $('#saveDelta').click(function () {
 
 });
 
+
 $(document).ready(function(){
-    $('.ql-container').height($('.ql-container').innerHeight() - $('.ql-toolbar').innerHeight() - 2);
+    $('.ql-container').height($('.ql-container').innerHeight() - $('.ql-toolbar').innerHeight() -50);
 });

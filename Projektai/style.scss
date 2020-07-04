@@ -1,11 +1,8 @@
-@import './styles/Header/Header.scss';
-@import './styles/Projektai/Projektai.scss';
-@import './styles/Footer/Footer.scss';
-
-$blue-1: #0C1821;
-$blue-2: #1b2a41;
-$blue-3: #324a5f;
-$blue-4: #ccc9dc;
+@import '../styles/_Spalvos.scss';
+@import '../styles/_Header.scss';
+@import '../styles/_Admin-menu.scss';
+@import '../styles/_Projektai.scss';
+@import '../styles/_Footer.scss';
 
 h1, h2{
     font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

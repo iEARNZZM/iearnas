@@ -34,7 +34,7 @@
                 <li class="active-list"><a href="#"><i class="fa fa-info-circle"></i>Apie mus</a></li>
                 <li><a href="../Kurti-projekta/Kurti-projekta.html"><i class="fa fa-trophy"></i>Kurti projektą</a></li>
                 <li><a href="../Komandos-nariai/Komandos-nariai.html"><i class="fa fa-group"></i>Komandos nariai</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>User info</a></li>
+                <li><a href="../Media_ir_Kontaktai/Media_ir_kontaktai.html"><i class="fa fa-phone"></i>Media ir Kontaktai</a></li>
             </ul>
             <div class="atsijungti">
                 <a href="#">Atsijungti</a>
@@ -46,25 +46,25 @@
                     <li></li>
                 </ul>
             </div>
-            <div class="bob">
+            <div class="main-content">
                 <div class="content">
                     <form autocomplete="off" action="create.html" method="post">
-                        <div>
-                            <label class="label">"Apie mus" tekstas</label>
-                            <textarea placeholder="Kas mes tokie?" cols="10" rows="6"></textarea>
-                        </div>
-                        <div>
-                            <button type="submit" class="btn">Atnaujinti tekstą</button>
-                        </div>
-                        <div >
-                            <label>"Apie mus" teksto nuotrauka</label>
-                            <input id="src" type="file" accept="image/png,image/jpeg,image/gif">
-                            <div class="apie-mus-nuotrauka">
-                                <img  id="target"/>
+                        <div class="flex-container">
+                            <div class="tekstas">
+                                <label class="label">"Apie mus" tekstas</label>
+                                <textarea placeholder="Kas mes tokie?" cols="10" rows="6" value="Mes kažką vis darom, niekas nežino ką, bet mes kažką tikrai darom. Ten filmukus kuriam, programuojam karts nuo karto, į kitas šalis važiuojam. Dar pas mus toks brolis yra, moka su 3D programom dirbt, apskritai Kaulakių šeimyną turim, praktiškai mes dar ir full fledged VFX studija."></textarea>
+                            </div>
+                            <div >
+                                <label>"Apie mus" teksto nuotrauka</label>
+                                <input id="src" type="file" accept="image/png,image/jpeg,image/gif">
+                                <div class="apie-mus-nuotrauka">
+                                    <img  id="target"/>
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <button type="submit" class="btn">Atnaujinti nuotrauką</button>
+                        
+                        <div class="submit">
+                            <button type="submit" class="btn">Atnaujinti</button>
                         </div>
                     </form>
                 </div>
