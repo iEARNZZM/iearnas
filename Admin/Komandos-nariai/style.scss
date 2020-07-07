@@ -26,10 +26,10 @@
 }
 
 .content{
-    margin: 0 70px;
+    margin: 0 100px;
     form{
         div{
-            margin: 2em 0;
+            margin: 1em 0;
         }
     }
 }
@@ -52,6 +52,19 @@ td{
     }
 }
 
+.img-container{
+    width: 2.5em;
+    overflow: hidden;
+    padding: 10px 0;
+    min-width: 2.5em;
+    img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1.25em;
+        vertical-align: middle;
+    }
+}
+
 td, th{
     padding: 15px;
     text-align: left;
@@ -65,10 +78,16 @@ tr:last-child td{
 }
 
 .Išsaugoti{
-    color: green;
+    text-align: right;
+    a{
+        color: green;
+    }
 }
 .Ištrinti{
-    color: red;
+    text-align: right;
+    a{
+        color: red;
+    }
 }
 .Redaguoti:hover, .Ištrinti:hover, .Publikuoti:hover{
     text-decoration: underline;
@@ -94,7 +113,7 @@ tr:last-child td{
     overflow: hidden;
     display: flex;
     justify-content: center;
-    border-radius: 50%;
+    //border-radius: 50%;
     box-shadow: 0 3px 22px 1px rgba(55,48,48,.09);
     background-color: rgba(245, 245, 245, 0.212);
     img{

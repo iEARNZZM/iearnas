@@ -121,6 +121,8 @@
 .top-bar ul li a {
   list-style: none;
   text-decoration: none;
+  font-style: italic;
+  color: #13aff0;
 }
 
 .side-menu {

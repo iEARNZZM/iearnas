@@ -52,6 +52,7 @@
                 <li class="active-list"><a href="Kurti-projekta.html"><i class="fa fa-trophy"></i>Kurti projektą</a></li>
                 <li><a href="../Komandos-nariai/Komandos-nariai.html"><i class="fa fa-group"></i>Komandos nariai</a></li>
                 <li><a href="../Media_ir_Kontaktai/Media_ir_kontaktai.html"><i class="fa fa-phone"></i>Media ir Kontaktai</a></li>
+                <li><a href="../Mano-info/Mano-info.html"><i class="fa fa-user"></i>Mano info</a></li>
             </ul>
             <div class="atsijungti">
                 <a href="#">Atsijungti</a>
@@ -68,8 +69,9 @@
             <div class="content">
 
                 <div class="writing">
-                    <div id="toolbar"></div>     <!--https://www.youtube.com/watch?v=CeRiFjYlPIw -->
-                    <div id="editor"></div>      <!--https://quilljs.com/docs/download/ -->
+                    <!--<div id="toolbar"></div>     https://www.youtube.com/watch?v=CeRiFjYlPIw -->
+                    <!--<div id="editor"></div>      https://quilljs.com/docs/download/ -->
+                    <div id="editor"></div>
                 </div>
                 <div class="informacija">
                     <form action="">
@@ -100,8 +102,15 @@
     </div>
 
     <script src="../../scripts/nuotrauka.js"></script>
-    <script src="../../scripts/quill.js"></script>
-    
+    <!-- <script src="../../scripts/quill.js"></script>-->
+    <script src="https://cdn.ckeditor.com/ckeditor5/20.0.0/classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+    </script>
 </body>
 
 </html>

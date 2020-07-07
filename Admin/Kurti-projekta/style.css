@@ -122,6 +122,8 @@
 .top-bar ul li a {
   list-style: none;
   text-decoration: none;
+  font-style: italic;
+  color: #13aff0;
 }
 
 .side-menu {
@@ -210,6 +212,10 @@
 
 .atsijungti a:hover {
   background-color: #ac0d0d;
+}
+
+.ck-content {
+  height: 840px;
 }
 
 body {
@@ -484,14 +490,12 @@ body {
   display: grid;
   -ms-grid-columns: auto 300px;
       grid-template-columns: auto 300px;
-  height: calc(100% - 2.5em);
+  height: calc(100% - 5.5em);
   width: 100%;
 }
 
 .writing {
   background-color: white;
-  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 38, 46, 0.09);
-          box-shadow: 0px 0px 10px 5px rgba(0, 38, 46, 0.09);
 }
 
 .informacija {
