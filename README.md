@@ -2,10 +2,11 @@
 
 Komplikuotas, bet ŽIAURIAI lengvas būdas gauti galvos skausmą
 
-Dėl pagalbos kreipkitės į Justą ---> .
+Dėl pagalbos kreipkitės į Justą.
 
 ## Kaip paleisti tinklapį savo kompiuteryje
-**NEPLATINKITE NIEKUR ŠIO KODO!**  
+> **NEPLATINKITE NIEKUR ŠIO KODO!**  
+
 Norint paleisti tinklapį kompiuteryje, būtina parsisiųsti Git  
 https://git-scm.com/downloads
 
