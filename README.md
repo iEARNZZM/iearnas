@@ -6,6 +6,7 @@ Dėl pagalbos kreipkitės į Justą.
 
 ## Kaip paleisti tinklapį savo kompiuteryje
 > **NEPLATINKITE NIEKUR ŠIO KODO!**  
+> (_Cmd_ - tai komandinė eilutė)
 
 Norint paleisti tinklapį kompiuteryje, būtina parsisiųsti Git  
 https://git-scm.com/downloads
@@ -25,9 +26,9 @@ https://git-scm.com/downloads
         ```
         git clone --single-branch --branch Backend https://github.com/iEARNZZM/iearnas.git
         ```
-* ### Atidarykite "iearn" aplankalą Cmd ###
+* ### Atidarykite "iearn_web" aplankalą Cmd ###
     ```
-    cd iearn
+    cd iearn_web
     ```
 * ### Instaliuokite "bibliotekas" skirtas tinklapiui ###
     ```
