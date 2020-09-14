@@ -36,7 +36,7 @@ https://git-scm.com/downloads
     ```
     Jei komanda neveikia, pasitikrinkite ar buvo automatiskai instaliuotas `pip` kartu su Python.
 * ### Paleiskite tinklapį ###
-    Paleskite serverį kompiuteryje:
+    Paleskite serverį ir kodą kompiuteryje:
     ```
     python run.py
     ```
