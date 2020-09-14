@@ -24,10 +24,11 @@ https://git-scm.com/downloads
     
         Atsidarykite Cmd pasiriktame aplankale ir įrašykite komandą:
         ```
-        git clone --single-branch --branch Backend https://github.com/iEARNZZM/iearnas.git
+        git clone https://github.com/iEARNZZM/iearnas.git
         ```
 * ### Atidarykite "iearn_web" aplankalą Cmd ###
     ```
+    git branch Backend
     cd iearn_web
     ```
 * ### Instaliuokite "bibliotekas" skirtas tinklapiui ###
@@ -43,7 +44,7 @@ https://git-scm.com/downloads
     Toliau Naršyklėje atsidarykite tinklapį:  
     Nuoroda turetų būti http://127.0.0.1:5000/
     
-    Norint išjungti serveri paspauskite `ctrl` + `c`
+    Norint išjungti serveri Cmd lange paspauskite `ctrl` + `c`
     
 # Baigta!
 
