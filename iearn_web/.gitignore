@@ -1,4 +1,1 @@
-/env
-.vscode/settings.json
-**/*.py[cod]     # Will match .pyc, .pyo and .pyd files.
-**/__pycache__/
+file1.txt
