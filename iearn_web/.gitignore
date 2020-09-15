@@ -1,0 +1,4 @@
+env/
+.vscode/
+#*.py[cod]     # Will match .pyc, .pyo and .pyd files.
+#__pycache__/
