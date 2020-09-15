@@ -7,6 +7,7 @@ Dėl pagalbos kreipkitės į Justą.
 ## Kaip paleisti tinklapį savo kompiuteryje
 > **NEPLATINKITE NIEKUR ŠIO KODO!**  
 > (_Cmd_ - tai komandinė eilutė)
+> Komados bus atliekamos komandinėje eilutėje
 
 Norint paleisti tinklapį kompiuteryje, būtina parsisiųsti Git  
 https://git-scm.com/downloads
@@ -15,17 +16,12 @@ https://git-scm.com/downloads
 
     Jeigu Python3 dar neturite, jį parsisiusti galima [čia](https://www.python.org/downloads/).
 
-* ### Parsisiųsti šia repozitoriją ###
-
-    * **Tai galima padaryti per šia svetaine tiesiogiai:**
-    
-        Nueiti į repozitorijos pradzia -> paspausti ant  'Code' -> paspausti ant 'Dowload Zip'.
-    * **Arba galima parsisiusti naudojant `git` komandą:**
-    
-        Atsidarykite Cmd pasiriktame aplankale ir įrašykite komandą:
-        ```
-        git clone https://github.com/iEARNZZM/iearnas.git
-        ```
+* ### Parsisiųsti šia repozitoriją naudojant `git` komandą ###
+    > Parsisiųsti šios repozitorijos .zip failo negalima, nes taip Git komandos neveiks.
+    Atsidarykite Cmd pasiriktame aplankale ir įrašykite komandą:
+    ```
+    git clone https://github.com/iEARNZZM/iearnas.git
+    ```
 * ### Atidarykite "iearn_web" aplankalą Cmd ###
     ```
     git branch Backend
