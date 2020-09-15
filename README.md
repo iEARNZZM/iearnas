@@ -46,4 +46,4 @@ https://git-scm.com/downloads
     
     Norint išjungti serveri Cmd lange paspauskite `ctrl` + `c`
     
-# Baigta!              TESTAS
+# Baigta!
