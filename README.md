@@ -46,8 +46,3 @@ https://git-scm.com/downloads
     Norint išjungti serveri paspauskite `ctrl` + `c`
     
 # Baigta!
-
-test
-
-        
-    
