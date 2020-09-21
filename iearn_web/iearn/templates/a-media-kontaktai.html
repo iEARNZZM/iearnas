@@ -26,22 +26,44 @@
                     <div class="column">
                         <div>
                             <h4>Socialiniai tinklų nuorodos</h4>
-                            {% set num = ['1', '2', '3', '4'] %}
-                            {% for i in range(0,4) %}
-                                {% if form['Link' + num[i]].errors %}        
-                                    {{ form['Link' + num[i]] (class="input error-field", placeholder="Instagram" ) }}
-                                    {% for error in form['Link' + num[i]].errors %}
-                                        <span class="error-note">{{ error }}</span>
-                                    {% endfor %}
-                                {% else %}
-                                    {{ form['Link' + num[i]] (class="input", placeholder="Instagram" ) }} 
-                                {% endif %}
-                            {% endfor %}
+                            {% if form.Link1.errors %}        
+                                {{ form.Link1 (class="input error-field", placeholder="Instagram" ) }}
+                                {% for error in form.Link1.errors %}
+                                    <span class="error-note">{{ error }}</span>
+                                {% endfor %}
+                            {% else %}
+                                {{ form.Link1 (class="input", placeholder="Instagram" ) }} 
+                            {% endif %}
+                            {% if form.Link2.errors %}        
+                                {{ form.Link2 (class="input error-field", placeholder="Facebook" ) }}
+                                {% for error in form.Link2.errors %}
+                                    <span class="error-note">{{ error }}</span>
+                                {% endfor %}
+                            {% else %}
+                                {{ form.Link2 (class="input", placeholder="Facebook" ) }} 
+                            {% endif %}
+                            {% if form.Link3.errors %}        
+                                {{ form.Link3 (class="input error-field", placeholder="YouTube" ) }}
+                                {% for error in form.Link3.errors %}
+                                    <span class="error-note">{{ error }}</span>
+                                {% endfor %}
+                            {% else %}
+                                {{ form.Link3 (class="input", placeholder="YouTube" ) }} 
+                            {% endif %}
+                            {% if form.Link4.errors %}        
+                                {{ form.Link4 (class="input error-field", placeholder="Global iEARN" ) }}
+                                {% for error in form.Link4.errors %}
+                                    <span class="error-note">{{ error }}</span>
+                                {% endfor %}
+                            {% else %}
+                                {{ form.Link4 (class="input", placeholder="Global iEARN" ) }} 
+                            {% endif %}
                         </div>
                     </div>
                     <div class="column">
                         <div>
                             <h4>Kontaktai</h4>
+                            {% set num = ['1', '2', '3', '4'] %}
                             {% for i in range(0,4) %}
                                 {{ form['contact' + num[i]] (class="input", placeholder="tel. numeris / el. paštas" ) }}
                             {% endfor %}
