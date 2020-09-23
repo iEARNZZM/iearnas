@@ -1,0 +1,276 @@
+.header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 3em;
+  z-index: 1000;
+}
+
+.header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header a .logo {
+  height: 2.5em;
+  margin-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header .nav-bar .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  height: 100%;
+  padding-right: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav-bar .nav-links li {
+  padding: 0 15px;
+}
+
+.header .nav-bar .nav-links li .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Segoe UI;
+  color: #354f52;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.9em;
+}
+
+/* Active klase uzdesim ant to linko, kuriame busim per kita koda */
+.active {
+  border-bottom: solid 2px #354f52;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-links {
+    padding-right: 10px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 0.8em;
+  border-radius: 8px;
+  color: white;
+  background-color: #52796f;
+  font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  margin-right: 1em;
+  border: none;
+}
+
+.top-bar {
+  background-color: #2f3e46;
+  height: 2.5em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3em;
+}
+
+.top-bar ul {
+  margin: 0;
+  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: space-between;
+}
+
+.top-bar ul li {
+  display: inline-block;
+  color: #f3f3f3;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.top-bar ul li a {
+  list-style: none;
+  text-decoration: none;
+  font-style: italic;
+  color: #13aff0;
+}
+
+.side-menu {
+  height: 100vh;
+  width: 100%;
+  background: #2f3e46;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #2f3e46), to(#52796f));
+  background: linear-gradient(180deg, #2f3e46 10%, #52796f 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-items {
+  margin: 0;
+  padding: 0;
+  padding-top: 3em;
+}
+
+.menu-items li {
+  list-style: none;
+}
+
+.menu-items a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-items a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+}
+
+.menu-items a i {
+  margin-right: 16px;
+}
+
+.active-list a {
+  color: #00ccff;
+}
+
+.menu-items li:hover {
+  background-color: rgba(255, 255, 225, 0.055);
+}
+
+.atsijungti {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.atsijungti a {
+  padding: 10px 60px;
+  background-color: #84a98c;
+  font-weight: 700;
+  font-size: 1em;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  border-radius: 20px;
+  -webkit-transition: none;
+  transition: none;
+  text-decoration: none;
+}
+
+.atsijungti a:hover {
+  background-color: #ac0d0d;
+}
+
+.main-content {
+  padding: 1em 4em;
+}
+
+.text-input {
+  height: 2em;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin: 0.5em 0;
+}
+
+.label {
+  font-family: Nunito sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: 'Segoe UI', Verdana, Nunito sans, 'Segoe UI', Tahoma, Geneva, sans-serif;
+  font-size: 2em;
+  color: #354f52;
+}
+
+h2 {
+  font-family: 'Segoe UI', Verdana, Nunito sans, 'Segoe UI', Tahoma, Geneva, sans-serif;
+  font-size: 1.1em;
+  color: #354f52;
+}
+
+p {
+  color: #2f3e46;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  font-family: Segoe UI;
+  background-color: #cad2c5;
+  margin: 0;
+}
+
+h3 {
+  margin: 0.5em 0;
+  color: #84a98c;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+input, textarea {
+  width: 100%;
+  outline: none;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px auto;
+      grid-template-columns: 300px auto;
+}

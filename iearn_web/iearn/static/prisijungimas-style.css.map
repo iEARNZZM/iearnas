@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,CAAA;EACG,WAAW,EAAE,+CAA+C;CAC/D;;AACD,AAAA,YAAY,CAAA;EACR,MAAM,EAAE,aAAa;EACrB,aAAa,EAAE,GAAG;CACrB;;AACD,AAAA,WAAW,CAAA;EACP,KAAK,EAAE,GAAG;CACb",
-    "sources": [
-        "prisijungimas-style.scss"
-    ],
-    "names": [],
-    "file": "prisijungimas-style.css"
-}
