@@ -9,8 +9,8 @@ Dėl pagalbos kreipkitės į Justą.
 > (_Cmd_ - tai komandinė eilutė)
 > Komados bus atliekamos komandinėje eilutėje
 
-Norint paleisti tinklapį kompiuteryje, būtina parsisiųsti Git  
-https://git-scm.com/downloads
+*   ### Norint paleisti tinklapį kompiuteryje, būtina parsisiųsti Git:  ###
+    https://git-scm.com/downloads
 
 * ### Instaliuotis Python3 ###
 
