@@ -25,7 +25,6 @@ Dėl pagalbos kreipkitės į Justą.
     ```
 * ### Atidarykite "iearn_web" aplankalą Cmd ###
     ```
-    git branch Backend
     cd iearn_web
     ```
 * ### Instaliuokite "bibliotekas" skirtas tinklapiui ###
