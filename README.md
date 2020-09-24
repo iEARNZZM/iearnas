@@ -18,6 +18,7 @@ Dėl pagalbos kreipkitės į Justą.
 
 * ### Parsisiųsti šia repozitoriją naudojant `git` komandą ###
     > Parsisiųsti šios repozitorijos .zip failo negalima, nes taip Git komandos neveiks.
+
     Atsidarykite Cmd pasiriktame aplankale ir įrašykite komandą:
     ```
     git clone https://github.com/iEARNZZM/iearnas.git
