@@ -28,7 +28,7 @@ MarkupSafe==1.1.1
 marshmallow==3.6.0
 mccabe==0.6.1
 Pillow==7.2.0
-pipenv==2018.11.26
+pipenv==2022.1.8
 pycparser==2.20
 pylint==2.4.4
 PyMySQL==0.9.3
